@@ -54,10 +54,6 @@ fun main(args: Array<String>) {
     val s: String? = null
      */
 
-    // Short function
-    //println(getGreeting())
-
-
     // Collections
     /*
     val hobbits = listOf("Frodo", "Sam", "Pippin", "Merry")
@@ -143,17 +139,10 @@ fun main(args: Array<String>) {
      */
 
     multiLineExample()
+
 }
 
-fun greet(greeting: String): Unit {
-    println(greeting)
-}
 
-fun getGreeting(): String {
-    return "Hello World"
-}
-
-fun getGreeting2() = "Hello World"
 
 // If conditional
 fun returnMinimum1(first: Int, second: Int): Int {
