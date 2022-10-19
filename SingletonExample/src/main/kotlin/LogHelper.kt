@@ -9,5 +9,4 @@ object LogHelper {
         logId++
         println("Log Id: $logId; Log Message: $message")
     }
-
 }

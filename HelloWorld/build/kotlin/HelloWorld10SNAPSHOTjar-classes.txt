@@ -1,1 +1,0 @@
-/Users/Veysel/Documents/Git/DesingPatterns/HelloWorld/build/classes/kotlin/main/FunctionExampleKt.class:/Users/Veysel/Documents/Git/DesingPatterns/HelloWorld/build/classes/kotlin/main/MainKt.class
