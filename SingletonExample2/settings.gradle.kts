@@ -1,0 +1,2 @@
+rootProject.name = "SingletonExample2"
+
