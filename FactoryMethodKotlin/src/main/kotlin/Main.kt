@@ -6,6 +6,7 @@ data class StudentInfo(val studentId: String, val name: String, val surname: Str
 fun main(args: Array<String>) {
 
     val studentInfo = StudentInfo("2022", "Munevver", "Sahika")
+    
 
     val argument1 = "PBuf"
     // val argument1 = "JSON"
@@ -26,5 +27,4 @@ fun createSerializer(serializerType: String): GenericSerializer {
     }
 
     return createdSerializer
-
 }
