@@ -1,5 +1,5 @@
 object StudentTrack {
 
-    public val studentList: MutableMap<String, Student> = mutableMapOf()
+    public val studentList = mutableMapOf<String, Student>()
 
 }

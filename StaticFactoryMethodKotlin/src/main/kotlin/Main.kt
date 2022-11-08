@@ -1,6 +1,5 @@
 fun main(args: Array<String>) {
 
-
     val a: Student = Student("B202210300", "Ayse", "Demir", "Sakarya University")
 
     val b: Student = Student.studentCreate("B202210300", "Ayse", "Demir")
