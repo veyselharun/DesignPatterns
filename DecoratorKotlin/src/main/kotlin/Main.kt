@@ -15,5 +15,4 @@ fun main(args: Array<String>) {
 
     val loggingGetStudent = LoggingGetStudent()
     loggingGetStudent.getStudent("20221012")
-
 }
