@@ -1,5 +1,3 @@
-import java.util.stream.Stream
-
 
 // Two adapters: one for power plugs and another one for USB ports.
 
@@ -21,10 +19,20 @@ fun main() {
         ).toUsbTypeC()
     )
 
-    usPowerOutlet().toEUPlug()
-    charger(usPowerOutlet().toEUPlug())
-    charger(usPowerOutlet().toEUPlug()).toUsbTypeC()
-    cellPhone(charger(usPowerOutlet().toEUPlug()).toUsbTypeC())
+    // listOf(1, 2, 3, 5).toTypedArray()
+    // listOf("a", "b", “c").toStream()
+
+    // val usPlug = usPowerOutlet()
+    // val euPlug = usPlug.toEUPlug()
+    // val usbMini = charger(euPlug)
+    // val usbTypeC = usbMini.toUsbTypeC()
+    // cellPhone(usbTypeC)
+
+
+    // usPowerOutlet().toEUPlug()
+    // charger(usPowerOutlet().toEUPlug())
+    // charger(usPowerOutlet().toEUPlug()).toUsbTypeC()
+    // cellPhone(charger(usPowerOutlet().toEUPlug()).toUsbTypeC())
 }
 
 
@@ -63,6 +71,7 @@ fun cellPhone(chargeCable: UsbTypeC) {
 fun usPowerOutlet(): USPlug {
     return object : USPlug {
         override val hasPower = 1
+        // override val hasPower = 0
     }
 }
 
