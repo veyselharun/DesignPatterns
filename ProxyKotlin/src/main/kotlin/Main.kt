@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
     // lazily assigned. The image will be get from the internet at
     // first call.
     val myLogo = Logo(
-        "https://www.sakarya.edu.tr/kutuphane/resimler/gorsel-kimlik/logo-yatay.jpg",
+        "https://www.sakarya.edu.tr/kutuphane/resimler/gorsel-kimlik/logo-yatay.jpg"
     )
 
     // This is the first call to the image.
