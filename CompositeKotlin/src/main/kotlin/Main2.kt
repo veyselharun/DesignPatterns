@@ -92,16 +92,13 @@ data class StormTrooper(
     }
 }
 
-
 interface Weapon {
     fun attack(x: Long, y: Long): PointsOfDamage
 }
 
-
 interface Legs {
     fun move(x: Long, y: Long): Meters
 }
-
 
 class Rifle : Weapon {
     override fun attack(x: Long, y: Long) = RIFLE_DAMAGE
@@ -114,7 +111,6 @@ class Flamethrower : Weapon {
 class Batton : Weapon {
     override fun attack(x: Long, y: Long) = RIFLE_DAMAGE * 3
 }
-
 
 class RegularLegs : Legs {
     override fun move(x: Long, y: Long) = REGULAR_SPEED

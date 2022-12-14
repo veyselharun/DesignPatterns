@@ -19,8 +19,14 @@ fun main() {
     // After adding a squad of stormtroopers create and add
     // stormtroopers to the squad.
     val bobaFett = StormTrooper(Rifle(), RegularLegs())
-    val squad = Squad(listOf(bobaFett.copy(), bobaFett.copy(),
-        bobaFett.copy()))
+    val trooperList = listOf(bobaFett.copy(), bobaFett.copy(),
+        bobaFett.copy())
+    //val squad = Squad(listOf(bobaFett.copy(), bobaFett.copy(),
+    //    bobaFett.copy()))
+    val squad = Squad(trooperList)
+    squad.move(2L, 2L)
+    squad.attackRebel(3L, 2L)
+
 
     // What happens when we change our interface?
     // For example, we need to add a new function to it like fun retreat().
@@ -29,7 +35,7 @@ fun main() {
 
 
 // Add a squad of stormtroopers
-// This class implements Trooper interface because we want a squat act as a
+// This class implements Trooper interface because we want a squad act as a
 // single unit like a troop. We want all functionality of Trooper must be
 // implemented by this class.
 class Squad(private val units: List<Trooper>) : Trooper {
