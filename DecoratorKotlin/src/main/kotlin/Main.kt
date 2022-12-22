@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     studentData.addStudent("20221013", "Ayse", "Demir")
 
     println(studentData.getStudent("20221013"))
-
+    
     val validatingAddStudent = ValidatingAddStudent()
     validatingAddStudent.addStudent("20221014", "Fatma", "Asya")
 
