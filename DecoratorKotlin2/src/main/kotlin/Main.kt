@@ -13,6 +13,7 @@ fun main(args: Array<String>) {
 
     val validatingAddStudent = ValidatingAddStudent(defaultStudentData)
     validatingAddStudent.addStudent("20221014", "Fatma", "Asya")
+    validatingAddStudent.getStudent("20221014")
 
     val loggingGetStudent = LoggingGetStudent(defaultStudentData)
     loggingGetStudent.getStudent("20221012")
