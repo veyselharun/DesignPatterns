@@ -1,6 +1,6 @@
 # DesingPatterns
 
-Lecture notes and sample applications of Design Patterns course.
+Design Patterns course materials.
 
 Some examples are based on the sample applications of the textbook.
 
