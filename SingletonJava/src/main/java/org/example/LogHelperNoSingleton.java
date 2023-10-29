@@ -2,22 +2,13 @@ package org.example;
 
 import java.time.LocalTime;
 
-public final class LogHelper {
-
-    private static LogHelper instance;
+public class LogHelperNoSingleton {
 
     private int logStamp= 0;
 
-    private LogHelper() {
+    public LogHelperNoSingleton() {
         String message = "Stamp\tTime\t\t\tType\tMessage";
         System.out.println(message);
-    }
-
-    public static LogHelper getInstance() {
-        if (instance == null) {
-            instance = new LogHelper();
-        }
-        return instance;
     }
 
     public void printLogMessage(LogType logType, String logMessage) {
@@ -26,6 +17,5 @@ public final class LogHelper {
         String message = logStamp + "\t\t" + logTime + "\t" + logType + "\t" + logMessage;
         System.out.println(message);
     }
-
 
 }

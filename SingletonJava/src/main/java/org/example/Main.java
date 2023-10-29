@@ -2,17 +2,24 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
+        /*
+        Without Singleton
+        Class1 myClass1 = new Class1();
+        myClass1.makeOperation1();
+        myClass1.makeOperation2();
 
-        Class1 class1 = new Class1();
-        class1.operationClass1();
+        Class2 myClass2 = new Class2();
+        myClass2.makeOperation1();
+        myClass2.makeOperation2();
+         */
 
-        Class2 class2 = new Class2();
-        class2.operationClass2();
+        /* With Singleton */
+        Class1 myClass1 = new Class1();
+        myClass1.makeOperation3();
+        myClass1.makeOperation4();
 
-        class1.operationClass1();
-        class2.operationClass2();
-
-        Class1 newClass = new Class1();
-        newClass.operationClass1();
+        Class2 myClass2 = new Class2();
+        myClass2.makeOperation3();
+        myClass2.makeOperation4();
     }
 }
