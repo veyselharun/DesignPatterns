@@ -1,5 +1,3 @@
-package org.example;
-
 public class Class1 {
 
     public void makeOperation1() {

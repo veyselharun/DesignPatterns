@@ -1,5 +1,3 @@
-package org.example;
-
 public class Class2 {
     public void makeOperation1() {
         LogHelperNoSingleton myLogger = new LogHelperNoSingleton();
