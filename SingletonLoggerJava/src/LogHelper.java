@@ -1,6 +1,6 @@
 import java.time.LocalTime;
 
-public class LogHelper {
+public final class LogHelper {
     private static LogHelper instance;
 
     private int logStamp= 0;

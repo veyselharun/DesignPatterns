@@ -22,5 +22,6 @@ public class Main {
         myClass2.makeOperation4();
          */
 
+
     }
 }
