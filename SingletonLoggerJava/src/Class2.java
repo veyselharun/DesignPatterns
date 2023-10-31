@@ -1,7 +1,7 @@
 public class Class2 {
     public void makeOperation1() {
         LogHelperNoSingleton myLogger = new LogHelperNoSingleton();
-        myLogger.printLogMessage("Class1 operation 1");
+        myLogger.printLogMessage("Class2 operation 1");
     }
 
     public void makeOperation2() {
