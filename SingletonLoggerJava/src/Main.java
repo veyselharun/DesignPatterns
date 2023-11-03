@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         /* Without Singleton */
+        /*
         Class1 myClass1 = new Class1();
         myClass1.makeOperation1();
         myClass1.makeOperation2();
@@ -9,8 +10,8 @@ public class Main {
         Class2 myClass2 = new Class2();
         myClass2.makeOperation1();
         myClass2.makeOperation2();
-
-
+         */
+        
         /* With Singleton */
         /*
         Class1 myClass1 = new Class1();
@@ -22,6 +23,14 @@ public class Main {
         myClass2.makeOperation4();
          */
 
+
+        /* Thread Safe */
+        /*
+        Class1 myClass1 = new Class1();
+        myClass1.opSynchronized();
+        myClass1.opEager();
+        myClass1.opDoubleChecked();
+         */
 
     }
 }

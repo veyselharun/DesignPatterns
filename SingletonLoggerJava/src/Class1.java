@@ -20,4 +20,18 @@ public class Class1 {
         myLogger.printLogMessage("Class1 operation 4");
     }
 
+    public void opSynchronized() {
+        LogHelperSynchronized myLogger = LogHelperSynchronized.getInstance();
+        myLogger.printLogMessage("Class1 operation - Synchronized");
+    }
+
+    public void opEager() {
+        LogHelperEager myLogger = LogHelperEager.getInstance();
+        myLogger.printLogMessage("Class1 operation - Eager");
+    }
+
+    public void opDoubleChecked() {
+        LogHelperDoubleChecked myLogger = LogHelperDoubleChecked.getInstance();
+        myLogger.printLogMessage("Class1 operation - Double Checked Locking");
+    }
 }
